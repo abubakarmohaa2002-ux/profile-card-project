@@ -1,0 +1,45 @@
+/* STEP 1 — Universal selector */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+   
+}
+
+/* STEP 2 — Element selectors */
+body {
+ font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+h1 {
+  color: #333;
+}
+
+/* STEP 3 — Class selectors */
+.card {
+ padding: 20px;
+  border: 2px solid #333;
+  width: 300px;
+  background-color: white;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.role {
+  font-style: italic;
+}
+
+.bio {
+  font-weight: bold;
+}
+
+/* STEP 4 — ID selector */
+#name {
+  font-size: 32px;
+}
